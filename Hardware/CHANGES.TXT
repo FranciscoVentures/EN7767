@@ -1,0 +1,12 @@
+Multiple Hardware Security Elements
+
+– NXP Semiconductors ; EdgeLock SE050 , A1006,  AT71CH 
+
+– Infineon OPTIGA™ TRUST SLS32AIA
+
+GPS  ZOE-M8   
+
+Microphones
+
+Physical Sensors 
+

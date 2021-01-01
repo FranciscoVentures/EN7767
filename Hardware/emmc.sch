@@ -1,0 +1,1433 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 12
+Title ""
+Date "2020-11-15"
+Rev ""
+Comp ""
+Comment1 "Copyright © 2019 F-Secure"
+Comment2 "License: CERN OHL v1.2"
+Comment3 "https://github.com/inversepath/usbarmory"
+Comment4 ""
+$EndDescr
+$Comp
+L Curiosity-rescue:EMMC16G-armory-mkII-encore-rescue U3
+U 1 1 5BF19E1D
+P 12350 4650
+AR Path="/53722D05/5BF19E1D" Ref="U3"  Part="1" 
+AR Path="/5C0717D2/5BF19E1D" Ref="U?"  Part="1" 
+AR Path="/5F358E5A/5BF19E1D" Ref="U?"  Part="1" 
+F 0 "U3" H 12400 4700 50  0000 C CNN
+F 1 "EMMC64G" H 12350 1400 50  0000 C CNN
+F 2 "snapeda:FBGA-153" H 12350 4650 50  0001 C CNN
+F 3 "https://media.kingston.com/pdfs/emmc/eMMC_Product_flyer.pdf" H 12350 4650 50  0001 C CNN
+F 4 "Kioxia America" H 12350 4650 50  0001 C CNN "Mfg"
+F 5 "THGAMRG9T23BAIL" H 12350 4650 50  0001 C CNN "Mfg PN"
+F 6 "FLASH - NAND Memory IC 512Gb (64G x 8) eMMC   153-FBGA (11.5x13)" H 12350 4650 50  0001 C CNN "Description"
+F 7 "THGAMRG9T23BAIL-ND" H 12350 4650 50  0001 C CNN "Digi-Key_PN"
+	1    12350 4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2600 10400
+NoConn ~ 2600 10300
+NoConn ~ 2600 10200
+NoConn ~ 2600 10100
+NoConn ~ 2600 10000
+NoConn ~ 2600 9900
+NoConn ~ 2600 9800
+NoConn ~ 2600 9700
+NoConn ~ 2600 9600
+NoConn ~ 2600 9500
+NoConn ~ 2600 9400
+NoConn ~ 2600 9300
+NoConn ~ 2600 9200
+NoConn ~ 2600 9100
+NoConn ~ 2600 9000
+NoConn ~ 2600 8900
+NoConn ~ 2600 8800
+NoConn ~ 2600 8700
+NoConn ~ 2600 8600
+NoConn ~ 2600 8500
+NoConn ~ 2600 8400
+NoConn ~ 2600 8300
+NoConn ~ 2600 8200
+NoConn ~ 2600 8100
+NoConn ~ 2600 8000
+NoConn ~ 2600 7900
+NoConn ~ 2600 7700
+NoConn ~ 2600 7400
+NoConn ~ 2600 7300
+NoConn ~ 2600 7200
+NoConn ~ 2600 7100
+NoConn ~ 2600 7000
+NoConn ~ 2600 6900
+NoConn ~ 2600 6800
+NoConn ~ 2600 6300
+NoConn ~ 2600 6200
+NoConn ~ 2600 6100
+NoConn ~ 2600 6000
+NoConn ~ 2600 5900
+NoConn ~ 2600 5800
+NoConn ~ 2600 5700
+NoConn ~ 2600 5600
+NoConn ~ 2600 5500
+NoConn ~ 2600 5400
+NoConn ~ 2600 5300
+NoConn ~ 2600 5200
+NoConn ~ 2600 5100
+NoConn ~ 2600 5000
+NoConn ~ 2600 4900
+NoConn ~ 2600 4800
+NoConn ~ 4400 4500
+NoConn ~ 4400 4600
+NoConn ~ 4400 4700
+NoConn ~ 4400 4800
+NoConn ~ 4400 4900
+NoConn ~ 4400 5000
+NoConn ~ 4400 5100
+NoConn ~ 4400 5200
+NoConn ~ 4400 5300
+NoConn ~ 4400 5400
+NoConn ~ 4400 5500
+NoConn ~ 4400 5600
+NoConn ~ 4400 5700
+NoConn ~ 4400 5800
+NoConn ~ 4400 5900
+NoConn ~ 4400 6000
+NoConn ~ 4400 6100
+NoConn ~ 4400 6200
+NoConn ~ 4400 6300
+NoConn ~ 4400 6400
+NoConn ~ 4400 6500
+NoConn ~ 4400 6600
+NoConn ~ 4400 6700
+NoConn ~ 4400 6800
+NoConn ~ 4400 6900
+NoConn ~ 4400 7000
+NoConn ~ 4400 7100
+NoConn ~ 4400 7200
+NoConn ~ 4400 7300
+NoConn ~ 4400 7400
+NoConn ~ 4400 7500
+NoConn ~ 4400 7600
+NoConn ~ 4400 7700
+NoConn ~ 4400 7800
+NoConn ~ 4400 7900
+NoConn ~ 4400 8000
+NoConn ~ 4400 8100
+NoConn ~ 4400 8200
+NoConn ~ 4400 8300
+NoConn ~ 4400 8500
+NoConn ~ 4400 8600
+NoConn ~ 4400 8700
+NoConn ~ 4400 8800
+NoConn ~ 4400 8900
+NoConn ~ 4400 9000
+NoConn ~ 4400 9100
+NoConn ~ 4400 9200
+NoConn ~ 4400 9300
+NoConn ~ 4400 9400
+NoConn ~ 4400 9500
+NoConn ~ 4400 9600
+NoConn ~ 4400 9700
+NoConn ~ 4400 9800
+NoConn ~ 4400 9900
+NoConn ~ 4400 10000
+NoConn ~ 4400 10100
+NoConn ~ 4400 10200
+NoConn ~ 4400 10300
+NoConn ~ 4400 10400
+$Comp
+L Curiosity-rescue:GND-power-armory-rescue #PWR?
+U 1 1 5BF1E941
+P 13500 7800
+AR Path="/5BEA6694/5BF1E941" Ref="#PWR?"  Part="1" 
+AR Path="/53722D05/5BF1E941" Ref="#PWR016"  Part="1" 
+AR Path="/5C0717D2/5BF1E941" Ref="#PWR?"  Part="1" 
+AR Path="/5F358E5A/5BF1E941" Ref="#PWR?"  Part="1" 
+F 0 "#PWR016" H 13500 7550 50  0001 C CNN
+F 1 "GND" H 13505 7627 50  0000 C CNN
+F 2 "" H 13500 7800 50  0001 C CNN
+F 3 "" H 13500 7800 50  0001 C CNN
+	1    13500 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 6450 13500 6450
+Wire Wire Line
+	13450 6550 13500 6550
+Wire Wire Line
+	13450 6650 13500 6650
+Wire Wire Line
+	13450 6750 13500 6750
+Wire Wire Line
+	13450 6850 13500 6850
+Wire Wire Line
+	13450 6950 13500 6950
+Wire Wire Line
+	13450 7150 13500 7150
+Wire Wire Line
+	13450 7250 13500 7250
+Wire Wire Line
+	13450 7350 13500 7350
+Wire Wire Line
+	13450 7450 13500 7450
+Wire Wire Line
+	13450 7550 13500 7550
+$Comp
+L Curiosity-rescue:MX6UL-VM-armory-mkII-encore-rescue U2
+U 3 1 5BF1F721
+P 3450 850
+AR Path="/53722D05/5BF1F721" Ref="U2"  Part="3" 
+AR Path="/5C0717D2/5BF1F721" Ref="U?"  Part="3" 
+AR Path="/5F358E5A/5BF1F721" Ref="U?"  Part="3" 
+F 0 "U2" H 3450 900 70  0000 C CNN
+F 1 "i.MX6ULZ" H 3450 -1750 60  0000 C CNN
+F 2 "SOT1534-2:SOT1534-2" H 3960 -310 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/IMX6ULCEC.pdf" H 3960 -310 60  0001 C CNN
+F 4 "Digikey" H 3450 850 50  0001 C CNN "Supplier"
+F 5 "MCIMX6Z0DVM09AB" H 3450 850 50  0001 C CNN "Supplier PN"
+F 6 "568-14726-ND" H 3450 850 50  0001 C CNN "Digi-Key_PN"
+F 7 "ARM® Cortex®-A7 Microprocessor IC i.MX6 1 Core, 32-Bit 900MHz 289-MAPBGA (14x14)" H 3450 850 50  0001 C CNN "Description"
+F 8 "NXP" H 3450 850 50  0001 C CNN "Mfg"
+F 9 "MCIMX6Z0DVM09AB" H 3450 850 50  0001 C CNN "Mfg PN"
+F 10 "289-MAPBGA" H 3450 850 50  0001 C CNN "FP"
+	3    3450 850 
+	1    0    0    -1  
+$EndComp
+Text Label 5300 2450 2    50   ~ 0
+SD2_DATA0
+Text Label 5300 2550 2    50   ~ 0
+SD2_DATA1
+Text Label 5300 2650 2    50   ~ 0
+SD2_DATA2
+Text Label 5300 2750 2    50   ~ 0
+SD2_DATA3
+Text Label 5300 2850 2    50   ~ 0
+SD2_DATA4
+Text Label 5300 2950 2    50   ~ 0
+SD2_DATA5
+Text Label 5300 3050 2    50   ~ 0
+SD2_DATA6
+Text Label 5300 3150 2    50   ~ 0
+SD2_DATA7
+Text Label 5300 1950 2    50   ~ 0
+SD2_CMD
+Text Label 6200 1850 2    50   ~ 0
+SD2_CLK
+NoConn ~ 11300 7050
+$Comp
+L Curiosity-rescue:EMMC16G-armory-mkII-encore-rescue U3
+U 2 1 5BF30E5F
+P 3500 4150
+AR Path="/53722D05/5BF30E5F" Ref="U3"  Part="2" 
+AR Path="/5C0717D2/5BF30E5F" Ref="U?"  Part="2" 
+AR Path="/5F358E5A/5BF30E5F" Ref="U?"  Part="2" 
+F 0 "U3" H 3500 4200 50  0000 C CNN
+F 1 "EMMC64G" H 3500 -2300 50  0000 C CNN
+F 2 "snapeda:FBGA-153" H 3850 4150 50  0001 C CNN
+F 3 "https://media.kingston.com/pdfs/emmc/eMMC_Product_flyer.pdf" H 3850 4150 50  0001 C CNN
+F 4 "..." H 3500 4150 50  0001 C CNN "Digi-Key_PN"
+F 5 "..." H 3500 4150 50  0001 C CNN "Description"
+F 6 "Digikey" H 3500 4150 50  0001 C CNN "Supplier"
+	2    3500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 5450 13500 5450
+Wire Wire Line
+	13500 5450 13500 5350
+Wire Wire Line
+	13450 5150 13500 5150
+Wire Wire Line
+	13450 5250 13500 5250
+Connection ~ 13500 5250
+Wire Wire Line
+	13500 5250 13500 5150
+Wire Wire Line
+	13450 5350 13500 5350
+Connection ~ 13500 5350
+Wire Wire Line
+	13500 5350 13500 5250
+Wire Wire Line
+	13450 5950 13500 5950
+Wire Wire Line
+	13450 5750 13500 5750
+Wire Wire Line
+	13450 5850 13500 5850
+Text Label 13600 6250 0    50   ~ 0
+VDDI
+$Comp
+L Curiosity-rescue:GND-power-armory-rescue #PWR?
+U 1 1 5BFF4DC1
+P 14550 6850
+AR Path="/5BEA6694/5BFF4DC1" Ref="#PWR?"  Part="1" 
+AR Path="/53722D05/5BFF4DC1" Ref="#PWR015"  Part="1" 
+AR Path="/5C0717D2/5BFF4DC1" Ref="#PWR?"  Part="1" 
+AR Path="/5F358E5A/5BFF4DC1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR015" H 14550 6600 50  0001 C CNN
+F 1 "GND" H 14555 6677 50  0000 C CNN
+F 2 "" H 14550 6850 50  0001 C CNN
+F 3 "" H 14550 6850 50  0001 C CNN
+	1    14550 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 6350 14550 6250
+Wire Wire Line
+	14550 6750 14550 6850
+Wire Wire Line
+	14550 6650 14550 6750
+Connection ~ 14550 6750
+Wire Wire Line
+	14100 6650 14100 6750
+Wire Wire Line
+	14100 6750 14550 6750
+Wire Wire Line
+	14100 6350 14100 6250
+Connection ~ 14100 6250
+Wire Wire Line
+	14100 6250 14550 6250
+Wire Wire Line
+	10550 5050 10550 5150
+Wire Wire Line
+	9350 5050 9350 5550
+Wire Wire Line
+	9050 4750 9050 5650
+Wire Wire Line
+	8750 5050 8750 5750
+Wire Wire Line
+	8450 4750 8450 5850
+Wire Wire Line
+	10550 4350 10550 4750
+Wire Wire Line
+	9350 4350 9350 4750
+Wire Wire Line
+	9050 4450 9050 4350
+Wire Wire Line
+	8750 4350 8750 4750
+Wire Wire Line
+	8450 4450 8450 4350
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R13
+U 1 1 5C163CAD
+P 5600 1850
+AR Path="/53722D05/5C163CAD" Ref="R13"  Part="1" 
+AR Path="/5C0717D2/5C163CAD" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5C163CAD" Ref="R?"  Part="1" 
+F 0 "R13" V 5505 1830 50  0000 C CNN
+F 1 "22R" V 5690 1830 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 5530 1850 50  0001 C CNN
+F 3 "~" H 5600 1850 50  0001 C CNN
+F 4 "Vishay Dale" H 5600 1850 50  0001 C CNN "Mfg"
+F 5 "CRCW020122R0JNED" H 5600 1850 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 5600 1850 50  0001 C CNN "Desc"
+F 7 "Digikey" H 5600 1850 50  0001 C CNN "Supplier"
+F 8 "541-22AGTR-ND" H 5600 1850 50  0001 C CNN "Supplier PN"
+F 9 "0201" V 5600 1850 30  0000 C CNN "FP"
+F 10 "50mW/1%" V 5750 1865 30  0000 C CNN "Rating"
+F 11 "541-22AGCT-ND" H 5600 1850 50  0001 C CNN "Digi-Key_PN"
+F 12 "22 Ohms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 5600 1850 50  0001 C CNN "Description"
+	1    5600 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R23
+U 1 1 5C190A77
+P 10550 4900
+AR Path="/53722D05/5C190A77" Ref="R23"  Part="1" 
+AR Path="/5C0717D2/5C190A77" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5C190A77" Ref="R?"  Part="1" 
+F 0 "R23" H 10600 4950 50  0000 L CNN
+F 1 "10K" H 10600 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 10480 4900 50  0001 C CNN
+F 3 "~" H 10550 4900 50  0001 C CNN
+F 4 "Vishay Dale" H 10550 4900 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 10550 4900 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 10550 4900 50  0001 C CNN "Desc"
+F 7 "Digikey" H 10550 4900 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 10550 4900 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 10700 4750 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 10550 4900 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 10550 4900 50  0001 C CNN "Description"
+	1    10550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1950 5300 1950
+Wire Wire Line
+	10250 4450 10250 4350
+Wire Wire Line
+	10250 4750 10250 5250
+Wire Wire Line
+	9950 4750 9950 4350
+Wire Wire Line
+	9950 5050 9950 5350
+Wire Wire Line
+	9650 4450 9650 4350
+Wire Wire Line
+	9650 4750 9650 5450
+Wire Wire Line
+	8150 4750 8150 4350
+Wire Wire Line
+	8150 5050 8150 6650
+Wire Wire Line
+	13450 6250 14100 6250
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5C74096A
+P 12530 2110
+AR Path="/5BEA6694/5C74096A" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5C74096A" Ref="C?"  Part="1" 
+AR Path="/53722D05/5C74096A" Ref="C9"  Part="1" 
+AR Path="/5C0717D2/5C74096A" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5C74096A" Ref="C?"  Part="1" 
+F 0 "C9" H 12630 2160 50  0000 L CNN
+F 1 "0.1uF" H 12630 2060 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 12568 1960 50  0001 C CNN
+F 3 "~" H 12530 2110 50  0001 C CNN
+F 4 "Murata Electronics North America" H 12530 2110 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 12530 2110 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 12530 2110 50  0001 C CNN "Desc"
+F 7 "Digikey" H 12530 2110 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 12530 2110 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 12530 2110 30  0000 C CNN "FP"
+F 10 "10V/20%" H 12745 1980 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 12530 2110 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 12530 2110 50  0001 C CNN "Description"
+	1    12530 2110
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4750 1350
+NoConn ~ 4750 1450
+NoConn ~ 4750 1750
+Text Label 10850 6250 0    50   ~ 0
+SD2_CLK
+Text Label 10850 5150 0    50   ~ 0
+SD2_DATA0
+Text Label 10850 5250 0    50   ~ 0
+SD2_DATA1
+Text Label 10850 5350 0    50   ~ 0
+SD2_DATA2
+Text Label 10850 5450 0    50   ~ 0
+SD2_DATA3
+Text Label 10850 5550 0    50   ~ 0
+SD2_DATA4
+Text Label 10850 5650 0    50   ~ 0
+SD2_DATA5
+Text Label 10850 5750 0    50   ~ 0
+SD2_DATA6
+Text Label 10850 5850 0    50   ~ 0
+SD2_DATA7
+Text Label 10850 6650 0    50   ~ 0
+SD2_CMD
+Wire Wire Line
+	4750 2450 5300 2450
+Wire Wire Line
+	4750 2550 5300 2550
+Wire Wire Line
+	4750 2650 5300 2650
+Wire Wire Line
+	4750 2750 5300 2750
+Wire Wire Line
+	4750 2850 5300 2850
+Wire Wire Line
+	4750 2950 5300 2950
+Wire Wire Line
+	4750 3050 5300 3050
+Wire Wire Line
+	4750 3150 5300 3150
+Wire Wire Line
+	4750 1650 5300 1650
+Text Label 5300 1650 2    50   ~ 0
+SD2_RESET_B
+Text Label 10850 7450 0    50   ~ 0
+SD2_RESET_B
+Wire Wire Line
+	10850 6250 11300 6250
+Wire Wire Line
+	7850 7450 7850 4750
+Wire Wire Line
+	7850 4450 7850 4350
+NoConn ~ 4750 2050
+NoConn ~ 4750 2150
+NoConn ~ 4750 2250
+$Comp
+L Curiosity-rescue:GND-power-armory-rescue #PWR?
+U 1 1 5CB51993
+P 2000 1850
+AR Path="/5BEA6694/5CB51993" Ref="#PWR?"  Part="1" 
+AR Path="/53722D05/5CB51993" Ref="#PWR012"  Part="1" 
+AR Path="/5335DA0B/5CB51993" Ref="#PWR?"  Part="1" 
+AR Path="/53834030/5CB51993" Ref="#PWR?"  Part="1" 
+AR Path="/5F358E5A/5CB51993" Ref="#PWR?"  Part="1" 
+F 0 "#PWR012" H 2000 1600 50  0001 C CNN
+F 1 "GND" H 2005 1677 50  0000 C CNN
+F 2 "" H 2000 1850 50  0001 C CNN
+F 3 "" H 2000 1850 50  0001 C CNN
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1750 2000 1850
+Text Label 2200 6700 0    50   ~ 0
+SD2_DATA7
+Wire Wire Line
+	2200 6700 2600 6700
+Text Label 2200 4500 0    50   ~ 0
+SD2_DATA3
+Wire Wire Line
+	2200 4500 2600 4500
+Text Label 2200 4600 0    50   ~ 0
+SD2_DATA4
+Wire Wire Line
+	2200 4600 2600 4600
+Text Label 2200 6600 0    50   ~ 0
+SD2_DATA6
+Wire Wire Line
+	2200 6600 2600 6600
+NoConn ~ 2600 4700
+Text Label 2200 6400 0    50   ~ 0
+VDDI
+Wire Wire Line
+	2200 6400 2600 6400
+$Comp
+L Curiosity-rescue:GND-power-armory-rescue #PWR?
+U 1 1 5CE50665
+P 2200 7850
+AR Path="/5BEA6694/5CE50665" Ref="#PWR?"  Part="1" 
+AR Path="/53722D05/5CE50665" Ref="#PWR017"  Part="1" 
+AR Path="/5C0717D2/5CE50665" Ref="#PWR?"  Part="1" 
+AR Path="/5F358E5A/5CE50665" Ref="#PWR?"  Part="1" 
+F 0 "#PWR017" H 2200 7600 50  0001 C CNN
+F 1 "GND" H 2205 7677 50  0000 C CNN
+F 2 "" H 2200 7850 50  0001 C CNN
+F 3 "" H 2200 7850 50  0001 C CNN
+	1    2200 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:GND-power-armory-rescue #PWR?
+U 1 1 5CE566A8
+P 4800 8450
+AR Path="/5BEA6694/5CE566A8" Ref="#PWR?"  Part="1" 
+AR Path="/53722D05/5CE566A8" Ref="#PWR018"  Part="1" 
+AR Path="/5C0717D2/5CE566A8" Ref="#PWR?"  Part="1" 
+AR Path="/5F358E5A/5CE566A8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR018" H 4800 8200 50  0001 C CNN
+F 1 "GND" H 4805 8277 50  0000 C CNN
+F 2 "" H 4800 8450 50  0001 C CNN
+F 3 "" H 4800 8450 50  0001 C CNN
+	1    4800 8450
+	1    0    0    -1  
+$EndComp
+Text Notes 2750 10850 0    50   ~ 0
+Dummy connections of some lines to NC balls\nconnected to ease PCB routing.
+Text Label 2200 6500 0    50   ~ 0
+SD2_DATA5
+Wire Wire Line
+	2200 6500 2600 6500
+Text Label 2200 7500 0    50   ~ 0
+SD2_DATA5
+Wire Wire Line
+	2200 7500 2600 7500
+Text Label 2200 7600 0    50   ~ 0
+SD2_DATA5
+Wire Wire Line
+	2200 7600 2600 7600
+Text Label 11630 1860 0    50   ~ 0
+DCDC_3V3
+Text Label 13600 5000 0    50   ~ 0
+DCDC_3V3
+Wire Wire Line
+	2200 7800 2600 7800
+Wire Wire Line
+	2200 7800 2200 7850
+Wire Wire Line
+	4800 8450 4800 8400
+Wire Wire Line
+	4400 8400 4800 8400
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5D389A76
+P 2000 1600
+AR Path="/5BEA6694/5D389A76" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5D389A76" Ref="C?"  Part="1" 
+AR Path="/53722D05/5D389A76" Ref="C7"  Part="1" 
+AR Path="/53834A3C/5D389A76" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5D389A76" Ref="C?"  Part="1" 
+F 0 "C7" H 2100 1650 50  0000 L CNN
+F 1 "0.22uF" H 2100 1550 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 2038 1450 50  0001 C CNN
+F 3 "~" H 2000 1600 50  0001 C CNN
+F 4 "Murata Electronics North America" H 2000 1600 50  0001 C CNN "Mfg"
+F 5 "GRM033R60J224ME15D" H 2000 1600 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 6.3V" H 2000 1600 50  0001 C CNN "Desc"
+F 7 "Digikey" H 2000 1600 50  0001 C CNN "Supplier"
+F 8 "490-10407-1-ND" H 2000 1600 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 2000 1600 30  0000 C CNN "FP"
+F 10 "6.3V/20%" H 2210 1470 30  0000 C CNN "Rating"
+F 11 "490-10407-1-ND" H 2000 1600 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.22µF ±20% 6.3V Ceramic Capacitor X5R 0201 (0603 Metric)" H 2000 1600 50  0001 C CNN "Description"
+	1    2000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:GND-power-armory-rescue #PWR?
+U 1 1 5D3C9607
+P 14030 2460
+AR Path="/5BEA6694/5D3C9607" Ref="#PWR?"  Part="1" 
+AR Path="/53722D05/5D3C9607" Ref="#PWR013"  Part="1" 
+AR Path="/5335DA0B/5D3C9607" Ref="#PWR?"  Part="1" 
+AR Path="/53834A3C/5D3C9607" Ref="#PWR?"  Part="1" 
+AR Path="/5F358E5A/5D3C9607" Ref="#PWR?"  Part="1" 
+F 0 "#PWR013" H 14030 2210 50  0001 C CNN
+F 1 "GND" H 14035 2287 50  0000 C CNN
+F 2 "" H 14030 2460 50  0001 C CNN
+F 3 "" H 14030 2460 50  0001 C CNN
+	1    14030 2460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11630 1860 12030 1860
+Wire Wire Line
+	12030 2260 12030 2360
+Wire Wire Line
+	12030 1960 12030 1860
+Connection ~ 12030 1860
+Wire Wire Line
+	12030 1860 12530 1860
+Wire Wire Line
+	12030 2360 12530 2360
+Wire Wire Line
+	12530 2260 12530 2360
+Connection ~ 12530 2360
+Wire Wire Line
+	12530 1960 12530 1860
+Connection ~ 12530 1860
+Wire Wire Line
+	12530 2360 13030 2360
+Wire Wire Line
+	12530 1860 13030 1860
+Wire Wire Line
+	13030 1960 13030 1860
+Connection ~ 13030 1860
+Wire Wire Line
+	13030 2260 13030 2360
+Connection ~ 13030 2360
+Wire Wire Line
+	14030 1860 14030 1960
+Wire Wire Line
+	13030 1860 13530 1860
+Wire Wire Line
+	13530 1960 13530 1860
+Connection ~ 13530 1860
+Wire Wire Line
+	13530 1860 14030 1860
+Wire Wire Line
+	14030 2360 14030 2460
+Wire Wire Line
+	13030 2360 13530 2360
+Wire Wire Line
+	14030 2360 14030 2260
+Connection ~ 14030 2360
+Wire Wire Line
+	13530 2360 13530 2260
+Connection ~ 13530 2360
+Wire Wire Line
+	13530 2360 14030 2360
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5D3EE443
+P 13030 2110
+AR Path="/5BEA6694/5D3EE443" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5D3EE443" Ref="C?"  Part="1" 
+AR Path="/53722D05/5D3EE443" Ref="C10"  Part="1" 
+AR Path="/5C0717D2/5D3EE443" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5D3EE443" Ref="C?"  Part="1" 
+F 0 "C10" H 13130 2160 50  0000 L CNN
+F 1 "0.1uF" H 13130 2060 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 13068 1960 50  0001 C CNN
+F 3 "~" H 13030 2110 50  0001 C CNN
+F 4 "Murata Electronics North America" H 13030 2110 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 13030 2110 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 13030 2110 50  0001 C CNN "Desc"
+F 7 "Digikey" H 13030 2110 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 13030 2110 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 13030 2110 30  0000 C CNN "FP"
+F 10 "10V/20%" H 13240 1980 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 13030 2110 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 13030 2110 50  0001 C CNN "Description"
+	1    13030 2110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5D3EE533
+P 13530 2110
+AR Path="/5BEA6694/5D3EE533" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5D3EE533" Ref="C?"  Part="1" 
+AR Path="/53722D05/5D3EE533" Ref="C11"  Part="1" 
+AR Path="/5C0717D2/5D3EE533" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5D3EE533" Ref="C?"  Part="1" 
+F 0 "C11" H 13630 2160 50  0000 L CNN
+F 1 "0.1uF" H 13630 2060 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 13568 1960 50  0001 C CNN
+F 3 "~" H 13530 2110 50  0001 C CNN
+F 4 "Murata Electronics North America" H 13530 2110 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 13530 2110 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 13530 2110 50  0001 C CNN "Desc"
+F 7 "Digikey" H 13530 2110 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 13530 2110 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 13530 2110 30  0000 C CNN "FP"
+F 10 "10V/20%" H 13740 1985 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 13530 2110 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 13530 2110 50  0001 C CNN "Description"
+	1    13530 2110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5D3F58E1
+P 14030 2110
+AR Path="/5BEA6694/5D3F58E1" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5D3F58E1" Ref="C?"  Part="1" 
+AR Path="/53722D05/5D3F58E1" Ref="C12"  Part="1" 
+AR Path="/5C0717D2/5D3F58E1" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5D3F58E1" Ref="C?"  Part="1" 
+F 0 "C12" H 14130 2160 50  0000 L CNN
+F 1 "0.1uF" H 14130 2060 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 14068 1960 50  0001 C CNN
+F 3 "~" H 14030 2110 50  0001 C CNN
+F 4 "Murata Electronics North America" H 14030 2110 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 14030 2110 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 14030 2110 50  0001 C CNN "Desc"
+F 7 "Digikey" H 14030 2110 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 14030 2110 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 14030 2110 30  0000 C CNN "FP"
+F 10 "10V/20%" H 14245 1985 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 14030 2110 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 14030 2110 50  0001 C CNN "Description"
+	1    14030 2110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5D41D5F0
+P 14100 6500
+AR Path="/5BEA6694/5D41D5F0" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5D41D5F0" Ref="C?"  Part="1" 
+AR Path="/53722D05/5D41D5F0" Ref="C19"  Part="1" 
+AR Path="/5C0717D2/5D41D5F0" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5D41D5F0" Ref="C?"  Part="1" 
+F 0 "C19" H 14200 6550 50  0000 L CNN
+F 1 "0.1uF" H 14205 6465 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 14138 6350 50  0001 C CNN
+F 3 "~" H 14100 6500 50  0001 C CNN
+F 4 "Murata Electronics North America" H 14100 6500 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 14100 6500 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 14100 6500 50  0001 C CNN "Desc"
+F 7 "Digikey" H 14100 6500 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 14100 6500 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 14100 6500 30  0000 C CNN "FP"
+F 10 "10V/20%" H 14310 6380 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 14100 6500 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 14100 6500 50  0001 C CNN "Description"
+	1    14100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5D423A56
+P 14550 6500
+AR Path="/5BEA6694/5D423A56" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5D423A56" Ref="C?"  Part="1" 
+AR Path="/53722D05/5D423A56" Ref="C20"  Part="1" 
+AR Path="/5C6BBC6A/5D423A56" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5D423A56" Ref="C?"  Part="1" 
+F 0 "C20" H 14650 6550 50  0000 L CNN
+F 1 "4.7uF" H 14650 6460 50  0000 L CNN
+F 2 "armory-kicad:SM0402" H 14588 6350 50  0001 C CNN
+F 3 "~" H 14550 6500 50  0001 C CNN
+F 4 "Murata Electronics North America" H 14550 6500 50  0001 C CNN "Mfg"
+F 5 "ZRB15XR61A475ME01D" H 14550 6500 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 14550 6500 50  0001 C CNN "Desc"
+F 7 "Digikey" H 14550 6500 50  0001 C CNN "Supplier"
+F 8 "490-10984-1-ND" H 14550 6500 50  0001 C CNN "Supplier PN"
+F 9 "0402" H 14550 6500 30  0000 C CNN "FP"
+F 10 "10V/20%" H 14760 6375 30  0000 C CNN "Rating"
+F 11 "490-10984-1-ND" H 14550 6500 50  0001 C CNN "Digi-Key_PN"
+F 12 "4.7µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 14550 6500 50  0001 C CNN "Description"
+	1    14550 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 7800 13500 7550
+Connection ~ 13500 6550
+Wire Wire Line
+	13500 6550 13500 6450
+Connection ~ 13500 6650
+Wire Wire Line
+	13500 6650 13500 6550
+Connection ~ 13500 6750
+Wire Wire Line
+	13500 6750 13500 6650
+Connection ~ 13500 6850
+Wire Wire Line
+	13500 6850 13500 6750
+Connection ~ 13500 6950
+Wire Wire Line
+	13500 6950 13500 6850
+Connection ~ 13500 7150
+Wire Wire Line
+	13500 7150 13500 6950
+Connection ~ 13500 7250
+Wire Wire Line
+	13500 7250 13500 7150
+Connection ~ 13500 7350
+Wire Wire Line
+	13500 7350 13500 7250
+Connection ~ 13500 7450
+Wire Wire Line
+	13500 7450 13500 7350
+Connection ~ 13500 7550
+Wire Wire Line
+	13500 7550 13500 7450
+Wire Wire Line
+	13500 6050 13500 5950
+Wire Wire Line
+	13500 6050 13450 6050
+Connection ~ 13500 5750
+Connection ~ 13500 5850
+Wire Wire Line
+	13500 5850 13500 5750
+Connection ~ 13500 5950
+Wire Wire Line
+	13500 5950 13500 5850
+Wire Wire Line
+	13500 5650 13500 5750
+Wire Wire Line
+	13500 5150 13500 5000
+Wire Wire Line
+	13500 5000 14000 5000
+Connection ~ 13500 5150
+Wire Wire Line
+	10250 4350 10550 4350
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R18
+U 1 1 5D482757
+P 10250 4600
+AR Path="/53722D05/5D482757" Ref="R18"  Part="1" 
+AR Path="/5C0717D2/5D482757" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D482757" Ref="R?"  Part="1" 
+F 0 "R18" H 10300 4650 50  0000 L CNN
+F 1 "10K" H 10300 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 10180 4600 50  0001 C CNN
+F 3 "~" H 10250 4600 50  0001 C CNN
+F 4 "Vishay Dale" H 10250 4600 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 10250 4600 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 10250 4600 50  0001 C CNN "Desc"
+F 7 "Digikey" H 10250 4600 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 10250 4600 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 10400 4450 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 10250 4600 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 10250 4600 50  0001 C CNN "Description"
+	1    10250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R22
+U 1 1 5D48CF6C
+P 9950 4900
+AR Path="/53722D05/5D48CF6C" Ref="R22"  Part="1" 
+AR Path="/5C0717D2/5D48CF6C" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D48CF6C" Ref="R?"  Part="1" 
+F 0 "R22" H 10000 4950 50  0000 L CNN
+F 1 "10K" H 10000 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 9880 4900 50  0001 C CNN
+F 3 "~" H 9950 4900 50  0001 C CNN
+F 4 "Vishay Dale" H 9950 4900 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 9950 4900 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 9950 4900 50  0001 C CNN "Desc"
+F 7 "Digikey" H 9950 4900 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 9950 4900 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 10100 4750 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 9950 4900 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 9950 4900 50  0001 C CNN "Description"
+	1    9950 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4350 10250 4350
+Connection ~ 10250 4350
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R17
+U 1 1 5D49CB5F
+P 9650 4600
+AR Path="/53722D05/5D49CB5F" Ref="R17"  Part="1" 
+AR Path="/5C0717D2/5D49CB5F" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D49CB5F" Ref="R?"  Part="1" 
+F 0 "R17" H 9700 4650 50  0000 L CNN
+F 1 "10K" H 9700 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 9580 4600 50  0001 C CNN
+F 3 "~" H 9650 4600 50  0001 C CNN
+F 4 "Vishay Dale" H 9650 4600 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 9650 4600 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 9650 4600 50  0001 C CNN "Desc"
+F 7 "Digikey" H 9650 4600 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 9650 4600 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 9800 4450 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 9650 4600 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 9650 4600 50  0001 C CNN "Description"
+	1    9650 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4350 9950 4350
+Connection ~ 9950 4350
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R21
+U 1 1 5D4AC767
+P 9350 4900
+AR Path="/53722D05/5D4AC767" Ref="R21"  Part="1" 
+AR Path="/5C0717D2/5D4AC767" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D4AC767" Ref="R?"  Part="1" 
+F 0 "R21" H 9400 4950 50  0000 L CNN
+F 1 "10K" H 9400 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 9280 4900 50  0001 C CNN
+F 3 "~" H 9350 4900 50  0001 C CNN
+F 4 "Vishay Dale" H 9350 4900 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 9350 4900 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 9350 4900 50  0001 C CNN "Desc"
+F 7 "Digikey" H 9350 4900 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 9350 4900 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 9500 4750 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 9350 4900 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 9350 4900 50  0001 C CNN "Description"
+	1    9350 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4350 9650 4350
+Connection ~ 9650 4350
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R16
+U 1 1 5D4D0DFB
+P 9050 4600
+AR Path="/53722D05/5D4D0DFB" Ref="R16"  Part="1" 
+AR Path="/5C0717D2/5D4D0DFB" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D4D0DFB" Ref="R?"  Part="1" 
+F 0 "R16" H 9100 4650 50  0000 L CNN
+F 1 "10K" H 9100 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8980 4600 50  0001 C CNN
+F 3 "~" H 9050 4600 50  0001 C CNN
+F 4 "Vishay Dale" H 9050 4600 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 9050 4600 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 9050 4600 50  0001 C CNN "Desc"
+F 7 "Digikey" H 9050 4600 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 9050 4600 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 9200 4450 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 9050 4600 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 9050 4600 50  0001 C CNN "Description"
+	1    9050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R20
+U 1 1 5D4D0F43
+P 8750 4900
+AR Path="/53722D05/5D4D0F43" Ref="R20"  Part="1" 
+AR Path="/5C0717D2/5D4D0F43" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D4D0F43" Ref="R?"  Part="1" 
+F 0 "R20" H 8800 4950 50  0000 L CNN
+F 1 "10K" H 8800 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8680 4900 50  0001 C CNN
+F 3 "~" H 8750 4900 50  0001 C CNN
+F 4 "Vishay Dale" H 8750 4900 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 8750 4900 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 8750 4900 50  0001 C CNN "Desc"
+F 7 "Digikey" H 8750 4900 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 8750 4900 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 8900 4750 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 8750 4900 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 8750 4900 50  0001 C CNN "Description"
+	1    8750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R15
+U 1 1 5D4DB639
+P 8450 4600
+AR Path="/53722D05/5D4DB639" Ref="R15"  Part="1" 
+AR Path="/5C0717D2/5D4DB639" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D4DB639" Ref="R?"  Part="1" 
+F 0 "R15" H 8500 4650 50  0000 L CNN
+F 1 "10K" H 8500 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8380 4600 50  0001 C CNN
+F 3 "~" H 8450 4600 50  0001 C CNN
+F 4 "Vishay Dale" H 8450 4600 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 8450 4600 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 8450 4600 50  0001 C CNN "Desc"
+F 7 "Digikey" H 8450 4600 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 8450 4600 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 8600 4450 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 8450 4600 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 8450 4600 50  0001 C CNN "Description"
+	1    8450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R19
+U 1 1 5D4DB77E
+P 8150 4900
+AR Path="/53722D05/5D4DB77E" Ref="R19"  Part="1" 
+AR Path="/5C0717D2/5D4DB77E" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D4DB77E" Ref="R?"  Part="1" 
+F 0 "R19" H 8200 4950 50  0000 L CNN
+F 1 "10K" H 8200 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8080 4900 50  0001 C CNN
+F 3 "~" H 8150 4900 50  0001 C CNN
+F 4 "Vishay Dale" H 8150 4900 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 8150 4900 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 8150 4900 50  0001 C CNN "Desc"
+F 7 "Digikey" H 8150 4900 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 8150 4900 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 8300 4750 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 8150 4900 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 8150 4900 50  0001 C CNN "Description"
+	1    8150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R14
+U 1 1 5D4E5E69
+P 7850 4600
+AR Path="/53722D05/5D4E5E69" Ref="R14"  Part="1" 
+AR Path="/5C0717D2/5D4E5E69" Ref="R?"  Part="1" 
+AR Path="/5F358E5A/5D4E5E69" Ref="R?"  Part="1" 
+F 0 "R14" H 7900 4650 50  0000 L CNN
+F 1 "10K" H 7900 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 7780 4600 50  0001 C CNN
+F 3 "~" H 7850 4600 50  0001 C CNN
+F 4 "Vishay Dale" H 7850 4600 50  0001 C CNN "Mfg"
+F 5 "CRCW020110K0JNED" H 7850 4600 50  0001 C CNN "Mfg PN"
+F 6 "5%, 50mW" H 7850 4600 50  0001 C CNN "Desc"
+F 7 "Digikey" H 7850 4600 50  0001 C CNN "Supplier"
+F 8 "541-10KAGTR-ND" H 7850 4600 50  0001 C CNN "Supplier PN"
+F 9 "50mW/1%" H 8000 4450 30  0000 C CNN "Rating"
+F 10 "0201" H 0   0   50  0001 C CNN "FP"
+F 11 "541-10KAGCT-ND" H 7850 4600 50  0001 C CNN "Digi-Key_PN"
+F 12 "10 kOhms ±5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 7850 4600 50  0001 C CNN "Description"
+	1    7850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4350 9350 4350
+Connection ~ 9350 4350
+Wire Wire Line
+	8750 4350 9050 4350
+Connection ~ 9050 4350
+Wire Wire Line
+	8450 4350 8750 4350
+Connection ~ 8750 4350
+Wire Wire Line
+	8150 4350 8450 4350
+Connection ~ 8450 4350
+Wire Wire Line
+	10550 5150 11300 5150
+Wire Wire Line
+	10250 5250 11300 5250
+Wire Wire Line
+	9950 5350 11300 5350
+Wire Wire Line
+	9650 5450 11300 5450
+Wire Wire Line
+	9350 5550 11300 5550
+Wire Wire Line
+	9050 5650 11300 5650
+Wire Wire Line
+	8750 5750 11300 5750
+Wire Wire Line
+	8450 5850 11300 5850
+Wire Wire Line
+	8150 6650 11300 6650
+Wire Wire Line
+	7850 7450 11300 7450
+Wire Wire Line
+	4750 1850 5450 1850
+Wire Wire Line
+	5750 1850 6200 1850
+Text Notes 10500 7100 0    50   ~ 0
+DS unconnected:\neMMC 5.0 specific
+Text Label 5300 1850 2    50   ~ 0
+SD2_CLK_R
+Wire Wire Line
+	2000 1450 2000 1350
+Wire Wire Line
+	2000 1350 2150 1350
+Text Notes 10950 8600 0    100  ~ 0
+4GB:  Kingston EMMC04G-M627-X02U\n8GB:  Kingston EMMC08G-M325-X01U\n16GB: Kingston EMMC16G-TB29-PZ90\n64GB: Kingston EMMC64G-TA29-PZ90 (THGAMRG9T23BAIL)
+Text GLabel 1700 1350 0    50   Input ~ 0
+NVCC_NAND
+Connection ~ 2000 1350
+Wire Wire Line
+	1700 1350 2000 1350
+Text GLabel 6995 1305 0    50   Input ~ 0
+NVCC_NAND
+Wire Wire Line
+	6995 1305 7295 1305
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5F6BC26C
+P 12540 3160
+AR Path="/5BEA6694/5F6BC26C" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5F6BC26C" Ref="C?"  Part="1" 
+AR Path="/53722D05/5F6BC26C" Ref="C14"  Part="1" 
+AR Path="/5C0717D2/5F6BC26C" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5F6BC26C" Ref="C?"  Part="1" 
+F 0 "C14" H 12640 3210 50  0000 L CNN
+F 1 "0.1uF" H 12640 3110 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 12578 3010 50  0001 C CNN
+F 3 "~" H 12540 3160 50  0001 C CNN
+F 4 "Murata Electronics North America" H 12540 3160 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 12540 3160 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 12540 3160 50  0001 C CNN "Desc"
+F 7 "Digikey" H 12540 3160 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 12540 3160 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 12540 3160 30  0000 C CNN "FP"
+F 10 "10V/20%" H 12750 3040 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 12540 3160 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 12540 3160 50  0001 C CNN "Description"
+	1    12540 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:GND-power-armory-rescue #PWR?
+U 1 1 5F6BC273
+P 14040 3510
+AR Path="/5BEA6694/5F6BC273" Ref="#PWR?"  Part="1" 
+AR Path="/53722D05/5F6BC273" Ref="#PWR014"  Part="1" 
+AR Path="/5335DA0B/5F6BC273" Ref="#PWR?"  Part="1" 
+AR Path="/53834A3C/5F6BC273" Ref="#PWR?"  Part="1" 
+AR Path="/5F358E5A/5F6BC273" Ref="#PWR?"  Part="1" 
+F 0 "#PWR014" H 14040 3260 50  0001 C CNN
+F 1 "GND" H 14045 3337 50  0000 C CNN
+F 2 "" H 14040 3510 50  0001 C CNN
+F 3 "" H 14040 3510 50  0001 C CNN
+	1    14040 3510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12040 3310 12040 3410
+Wire Wire Line
+	12040 3010 12040 2910
+Connection ~ 12040 2910
+Wire Wire Line
+	12040 2910 12540 2910
+Wire Wire Line
+	12040 3410 12540 3410
+Wire Wire Line
+	12540 3310 12540 3410
+Connection ~ 12540 3410
+Wire Wire Line
+	12540 3010 12540 2910
+Connection ~ 12540 2910
+Wire Wire Line
+	12540 3410 13040 3410
+Wire Wire Line
+	12540 2910 13040 2910
+Wire Wire Line
+	13040 3010 13040 2910
+Connection ~ 13040 2910
+Wire Wire Line
+	13040 3310 13040 3410
+Connection ~ 13040 3410
+Wire Wire Line
+	14040 2910 14040 3010
+Wire Wire Line
+	13040 2910 13540 2910
+Wire Wire Line
+	13540 3010 13540 2910
+Wire Wire Line
+	14040 3410 14040 3510
+Wire Wire Line
+	13040 3410 13540 3410
+Wire Wire Line
+	14040 3410 14040 3310
+Connection ~ 14040 3410
+Wire Wire Line
+	13540 3410 13540 3310
+Connection ~ 13540 3410
+Wire Wire Line
+	13540 3410 14040 3410
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5F6BC29E
+P 13040 3160
+AR Path="/5BEA6694/5F6BC29E" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5F6BC29E" Ref="C?"  Part="1" 
+AR Path="/53722D05/5F6BC29E" Ref="C15"  Part="1" 
+AR Path="/5C0717D2/5F6BC29E" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5F6BC29E" Ref="C?"  Part="1" 
+F 0 "C15" H 13140 3210 50  0000 L CNN
+F 1 "0.1uF" H 13140 3110 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 13078 3010 50  0001 C CNN
+F 3 "~" H 13040 3160 50  0001 C CNN
+F 4 "Murata Electronics North America" H 13040 3160 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 13040 3160 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 13040 3160 50  0001 C CNN "Desc"
+F 7 "Digikey" H 13040 3160 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 13040 3160 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 13040 3160 30  0000 C CNN "FP"
+F 10 "10V/20%" H 13250 3035 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 13040 3160 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 13040 3160 50  0001 C CNN "Description"
+	1    13040 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5F6BC2AD
+P 13540 3160
+AR Path="/5BEA6694/5F6BC2AD" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5F6BC2AD" Ref="C?"  Part="1" 
+AR Path="/53722D05/5F6BC2AD" Ref="C16"  Part="1" 
+AR Path="/5C0717D2/5F6BC2AD" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5F6BC2AD" Ref="C?"  Part="1" 
+F 0 "C16" H 13640 3210 50  0000 L CNN
+F 1 "0.1uF" H 13640 3110 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 13578 3010 50  0001 C CNN
+F 3 "~" H 13540 3160 50  0001 C CNN
+F 4 "Murata Electronics North America" H 13540 3160 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 13540 3160 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 13540 3160 50  0001 C CNN "Desc"
+F 7 "Digikey" H 13540 3160 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 13540 3160 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 13540 3160 30  0000 C CNN "FP"
+F 10 "10V/20%" H 13750 3035 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 13540 3160 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 13540 3160 50  0001 C CNN "Description"
+	1    13540 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5F6BC2BC
+P 14040 3160
+AR Path="/5BEA6694/5F6BC2BC" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5F6BC2BC" Ref="C?"  Part="1" 
+AR Path="/53722D05/5F6BC2BC" Ref="C17"  Part="1" 
+AR Path="/5C0717D2/5F6BC2BC" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5F6BC2BC" Ref="C?"  Part="1" 
+F 0 "C17" H 14140 3210 50  0000 L CNN
+F 1 "0.1uF" H 14140 3110 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 14078 3010 50  0001 C CNN
+F 3 "~" H 14040 3160 50  0001 C CNN
+F 4 "Murata Electronics North America" H 14040 3160 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 14040 3160 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 14040 3160 50  0001 C CNN "Desc"
+F 7 "Digikey" H 14040 3160 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 14040 3160 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 14040 3160 30  0000 C CNN "FP"
+F 10 "10V/20%" H 14250 3040 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 14040 3160 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 14040 3160 50  0001 C CNN "Description"
+	1    14040 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5F6BC2CB
+P 12040 3160
+AR Path="/5BEA6694/5F6BC2CB" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5F6BC2CB" Ref="C?"  Part="1" 
+AR Path="/53722D05/5F6BC2CB" Ref="C13"  Part="1" 
+AR Path="/5F358E5A/5F6BC2CB" Ref="C?"  Part="1" 
+F 0 "C13" H 12140 3210 50  0000 L CNN
+F 1 "10uF" H 12140 3110 50  0000 L CNN
+F 2 "armory-kicad:SM0402" H 12078 3010 50  0001 C CNN
+F 3 "~" H 12040 3160 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 12040 3160 50  0001 C CNN "Mfg"
+F 5 "CL05A106MP8NUB8" H 12040 3160 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 12040 3160 50  0001 C CNN "Desc"
+F 7 "Digikey" H 12040 3160 50  0001 C CNN "Supplier"
+F 8 "1276-6830-1-ND" H 12040 3160 50  0001 C CNN "Supplier PN"
+F 9 "0402" H 12040 3160 30  0000 C CNN "FP"
+F 10 "10V/20%" H 12245 3035 30  0000 C CNN "Rating"
+F 11 "1276-6830-1-ND" H 12040 3160 50  0001 C CNN "Digi-Key_PN"
+F 12 "10µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 12040 3160 50  0001 C CNN "Description"
+	1    12040 3160
+	1    0    0    -1  
+$EndComp
+Text GLabel 11340 2910 0    50   Input ~ 0
+NVCC_NAND
+Wire Wire Line
+	11340 2910 12040 2910
+Text GLabel 7155 4350 0    50   Input ~ 0
+NVCC_NAND
+Wire Wire Line
+	7155 4350 7850 4350
+Connection ~ 7850 4350
+Wire Wire Line
+	7850 4350 8150 4350
+Connection ~ 8150 4350
+Connection ~ 13540 2910
+Wire Wire Line
+	13540 2910 14040 2910
+Wire Wire Line
+	14560 2910 14560 3010
+Wire Wire Line
+	14560 3410 14560 3310
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5F737E5D
+P 14560 3160
+AR Path="/5BEA6694/5F737E5D" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5F737E5D" Ref="C?"  Part="1" 
+AR Path="/53722D05/5F737E5D" Ref="C18"  Part="1" 
+AR Path="/5C0717D2/5F737E5D" Ref="C?"  Part="1" 
+AR Path="/5F358E5A/5F737E5D" Ref="C?"  Part="1" 
+F 0 "C18" H 14660 3210 50  0000 L CNN
+F 1 "0.1uF" H 14660 3110 50  0000 L CNN
+F 2 "armory-kicad:SM0201" H 14598 3010 50  0001 C CNN
+F 3 "~" H 14560 3160 50  0001 C CNN
+F 4 "Murata Electronics North America" H 14560 3160 50  0001 C CNN "Mfg"
+F 5 "GRM033R61A104ME15D" H 14560 3160 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 14560 3160 50  0001 C CNN "Desc"
+F 7 "Digikey" H 14560 3160 50  0001 C CNN "Supplier"
+F 8 "490-5405-2-ND" H 14560 3160 50  0001 C CNN "Supplier PN"
+F 9 "0201" H 14560 3160 30  0000 C CNN "FP"
+F 10 "10V/20%" H 14770 3035 30  0000 C CNN "Rating"
+F 11 "490-5405-1-ND" H 14560 3160 50  0001 C CNN "Digi-Key_PN"
+F 12 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 14560 3160 50  0001 C CNN "Description"
+	1    14560 3160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14040 2910 14560 2910
+Connection ~ 14040 2910
+Wire Wire Line
+	14560 3410 14040 3410
+Text Notes 14530 2865 0    50   ~ 0
+# Stitching CAP for Layout
+Text GLabel 14250 5650 2    50   Input ~ 0
+NVCC_NAND
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R11
+U 1 1 5F766F56
+P 7600 1120
+AR Path="/53722D05/5F766F56" Ref="R11"  Part="1" 
+AR Path="/5C0717D2/5F766F56" Ref="R?"  Part="1" 
+AR Path="/5C1535D2/5F766F56" Ref="R?"  Part="1" 
+AR Path="/5F766F56" Ref="R?"  Part="1" 
+AR Path="/5CEA53B1/5F766F56" Ref="R?"  Part="1" 
+AR Path="/53834030/5F766F56" Ref="R?"  Part="1" 
+F 0 "R11" V 7675 1060 50  0000 L CNN
+F 1 "DNP" V 7520 1045 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 7530 1120 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20052/crcw0201e3.pdf" H 7600 1120 50  0001 C CNN
+F 4 "Vishay Dale" H 7600 1120 50  0001 C CNN "Mfg"
+F 5 "CRCW02010000Z0ED" H 7600 1120 50  0001 C CNN "Mfg PN"
+F 6 "0 Ohms Jumper 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 7600 1120 50  0001 C CNN "Desc"
+F 7 "Digikey" H 7600 1120 50  0001 C CNN "Supplier"
+F 8 "541-0.0AGCT-ND" H 7600 1120 50  0001 C CNN "Supplier PN"
+F 9 "0.05W" V 7465 1125 30  0000 C CNN "Rating"
+F 10 "541-0.0AGCT-ND" H 7600 1120 50  0001 C CNN "Digi-Key_PN"
+F 11 "0 Ohms Jumper 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 7600 1120 50  0001 C CNN "Description"
+F 12 "0201" V 7600 1120 50  0000 C CNN "FP"
+	1    7600 1120
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Curiosity-rescue:R-Device-armory-rescue R12
+U 1 1 5F77EDC7
+P 7600 1455
+AR Path="/53722D05/5F77EDC7" Ref="R12"  Part="1" 
+AR Path="/5C0717D2/5F77EDC7" Ref="R?"  Part="1" 
+AR Path="/5C1535D2/5F77EDC7" Ref="R?"  Part="1" 
+AR Path="/5F77EDC7" Ref="R?"  Part="1" 
+AR Path="/5CEA53B1/5F77EDC7" Ref="R?"  Part="1" 
+AR Path="/53834030/5F77EDC7" Ref="R?"  Part="1" 
+F 0 "R12" V 7680 1395 50  0000 L CNN
+F 1 "0R" V 7520 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 7530 1455 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20052/crcw0201e3.pdf" H 7600 1455 50  0001 C CNN
+F 4 "Vishay Dale" H 7600 1455 50  0001 C CNN "Mfg"
+F 5 "CRCW02010000Z0ED" H 7600 1455 50  0001 C CNN "Mfg PN"
+F 6 "0 Ohms Jumper 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 7600 1455 50  0001 C CNN "Desc"
+F 7 "Digikey" H 7600 1455 50  0001 C CNN "Supplier"
+F 8 "541-0.0AGCT-ND" H 7600 1455 50  0001 C CNN "Supplier PN"
+F 9 "0.05W" V 7460 1460 30  0000 C CNN "Rating"
+F 10 "541-0.0AGCT-ND" H 7600 1455 50  0001 C CNN "Digi-Key_PN"
+F 11 "0 Ohms Jumper 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 7600 1455 50  0001 C CNN "Description"
+F 12 "0201" V 7600 1455 50  0000 C CNN "FP"
+	1    7600 1455
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 1120 7295 1120
+Wire Wire Line
+	7295 1120 7295 1305
+Wire Wire Line
+	7295 1305 7295 1455
+Wire Wire Line
+	7295 1455 7450 1455
+Connection ~ 7295 1305
+Text GLabel 8410 1455 2    50   Output ~ 0
+LDO1_1V8
+Wire Wire Line
+	8405 1120 7750 1120
+Wire Wire Line
+	7750 1455 8410 1455
+Text GLabel 8405 1120 2    50   Output ~ 0
+DCDC_3V3
+Text Notes 8320 1625 0    50   ~ 0
+High speed, single data rate mode (HS-200) : up to 200MB/s @ 200MHz
+Text Notes 8330 1235 0    50   ~ 0
+Single data transfer rate: up to 52MB/s (using 8 parallel data lines at 52MHz)
+Text Notes 6440 9800 0    50   ~ 0
+Layout recommendation\n\neMMC HS200 mode recommendations\nThe HS200 bus speed mode for the eMMC offers the following features:\n• SDR data-sampling method.\n• CLK frequency of up to 200 MHz and data rate of up to 200 MB/s.\n• 4-bit or 8-bit bus widths supported.\n• Single-ended signaling with four selectable drive strengths.\n• Signaling levels of 1.8 V .\n• Tuning concept for the read operations.\nThe PCB design recommendations for the eMMC HS200 mode are:\n• The propagation time skew of the signals between the controller and the eMMC must be within 50 ps.\n• The maximum length of the traces must be 60 mm as the parasitic capacitance causes the driving load capacitance increase.\n• The maximum line length difference must be 8 mm.\n• The hardware reset pin of the eMMC must be configured as floating or connecting to GND if not\nused.\n• The maximum line length of the DDR50 must be 60 mm.
+Wire Wire Line
+	13450 5650 13500 5650
+Connection ~ 13500 5650
+Wire Wire Line
+	13500 5650 14250 5650
+Text Notes 14015 6200 0    50   ~ 0
+VDDI = 1.1V
+$Comp
+L Curiosity-rescue:C-Device-armory-rescue C?
+U 1 1 5D4072B8
+P 12030 2110
+AR Path="/5BEA6694/5D4072B8" Ref="C?"  Part="1" 
+AR Path="/5335DA0B/5D4072B8" Ref="C?"  Part="1" 
+AR Path="/53722D05/5D4072B8" Ref="C8"  Part="1" 
+AR Path="/5F358E5A/5D4072B8" Ref="C?"  Part="1" 
+F 0 "C8" H 12130 2160 50  0000 L CNN
+F 1 "10uF" H 12130 2060 50  0000 L CNN
+F 2 "armory-kicad:SM0402" H 12068 1960 50  0001 C CNN
+F 3 "~" H 12030 2110 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 12030 2110 50  0001 C CNN "Mfg"
+F 5 "CL05A106MP8NUB8" H 12030 2110 50  0001 C CNN "Mfg PN"
+F 6 "X5R, 20%, 10V" H 12030 2110 50  0001 C CNN "Desc"
+F 7 "Digikey" H 12030 2110 50  0001 C CNN "Supplier"
+F 8 "1276-6830-1-ND" H 12030 2110 50  0001 C CNN "Supplier PN"
+F 9 "0402" H 12030 2110 30  0000 C CNN "FP"
+F 10 "10V/20%" H 12235 1980 30  0000 C CNN "Rating"
+F 11 "1276-6830-1-ND" H 12030 2110 50  0001 C CNN "Digi-Key_PN"
+F 12 "10µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 12030 2110 50  0001 C CNN "Description"
+	1    12030 2110
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
