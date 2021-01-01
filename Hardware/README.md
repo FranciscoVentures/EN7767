@@ -1,7 +1,7 @@
 Intro
 =======
 
-Curiosity™ EN7700
+Curiosity™ EN7767
 Developed by Francisco Ventures™
 
 Based on the open source hardware project USB Armory MK II | https://github.com/f-secure-foundry/usbarmory/tree/master/hardware/mark-two
