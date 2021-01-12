@@ -10,7 +10,7 @@ Rev ""
 Comp ""
 Comment1 "Copyright © 2019 F-Secure"
 Comment2 "License: CERN OHL v1.2"
-Comment3 "https://github.com/inversepath/usbarmory"
+Comment3 "github.com/f-secure-foundry"
 Comment4 ""
 $EndDescr
 $Comp

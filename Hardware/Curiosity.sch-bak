@@ -4,13 +4,13 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 12
-Title "CURIOSITY EN7767"
+Title ""
 Date "2020-11-15"
-Rev "REV"
+Rev ""
 Comp ""
 Comment1 "Copyright © 2019 F-Secure"
 Comment2 "License: CERN OHL v1.2"
-Comment3 "https://github.com/inversepath/usbarmory"
+Comment3 "github.com/f-secure-foundry"
 Comment4 ""
 $EndDescr
 $Sheet
